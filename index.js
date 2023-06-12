@@ -8,9 +8,9 @@ function mondayWork(answer = "go to the office") {
 }
 mondayWork();
 
-function wrapAdjective(flair = "*") {
+function wrapAdjective(result = "*") {
   return function (adjective = "special") {
-    return `You are ${flair}${adjective}${flair}!`;
+    return `You are ${result}${adjective}${result}!`;
   };
 }
 
